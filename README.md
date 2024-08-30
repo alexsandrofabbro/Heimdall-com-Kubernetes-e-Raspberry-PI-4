@@ -7,14 +7,9 @@
     <li><a href="#pré-requisitos">Pré-requisitos</a></li>
     <li><a href="#arquitetura-do-cluster">Arquitetura do Cluster</a></li>
     <li><a href="#configuração-do-heimdall">Configuração do Heimdall</a></li>
-    <li><a href="#instalação-do-k3s">Instalação do k3s</a></li>
-    <li><a href="#configuração-do-flannel">Configuração do Flannel</a></li>
-    <li><a href="#configuração-do-metallb">Configuração do MetalLB</a></li>
-    <li><a href="#deploy-de-aplicações">Deploy de Aplicações</a></li>
-    <li><a href="#monitoramento-e-acesso-ao-cluster">Monitoramento e Acesso ao Cluster</a></li>
-    <li><a href="#recursos-adicionais">Recursos Adicionais</a></li>
-    <li><a href="#contribuições">Contribuições</a></li>
-    <li><a href="#licença">Licença</a></li>
+    <li><a href="#aplicando-os-arquivos-ao-cluster">Aplicando os arquivos ao Cluster</a></li>
+    <li><a href="#acessando-o-heimdall">Acessando o Heimdall</a></li>
+    <li><a href="#conclusao">Conclusão</a></li>
 </ul>
 
 <h2 id="pré-requisitos">Pré-requisitos</h2>
@@ -125,7 +120,7 @@
   </code></pre>
 
 
- <h3>5. Aplicando os arquivos ao cluster</h3>
+ <h2 id="aplicando-os-arquivos-ao-cluster"> Aplicando os arquivos ao cluster</h2>
   <p>Execute os seguintes comandos para aplicar os arquivos YAML ao cluster Kubernetes:</p>
   
   <pre><code>kubectl apply -f heimdall-deployment.yaml
@@ -133,12 +128,12 @@
     kubectl apply -f heimdall-pvc.yaml
   </code></pre>
   
-<h3>6. Acessando o Heimdall</h3>
+<h2 id="acessando-o-heimdall">Acessando o Heimdall</h2>
   <p>Após a implantação, você poderá acessar o Heimdall através do IP alocado pelo MetalLB:</p>
   
-  <pre><code>http://&lt;IP-externo-do-Heimdall&gt;</code></pre>
+  <pre><code>http://&lt;IP-externo-do-Heimdall:80&gt;</code></pre>
   
- <h3>7. Conclusão</h3>
+ <h3 id="conclusao">7. Conclusão</h3>
   <p>Agora o Heimdall está em execução no seu cluster Kubernetes, pronto para ser usado como seu painel inicial de aplicativos!</p>
 
 
