@@ -139,8 +139,6 @@
 <h2 id="recursos-adicionais">Recursos Adicionais</h2>
 <ul>
     <li><a href="https://heimdall.site/ target="_blank"">Site Heimdall</a></li>
-    <li><a href="https://github.com/flannel-io/flannel">Flannel</a></li>
-    <li><a href="https://metallb.universe.tf/">MetalLB</a></li>
 </ul>
 
 <h2 id="contribuições">Contribuições</h2>
