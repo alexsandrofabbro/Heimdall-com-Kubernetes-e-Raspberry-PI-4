@@ -138,8 +138,8 @@
   
 <h2 id="recursos-adicionais">Recursos Adicionais</h2>
 <ul>
-    <li><a href="https://heimdall.site/ target="_blank"">Site Heimdall</a></li>
-    <li><a href="https://github.com/linuxserver/Heimdall/ target="_blank"">GitHub Heimdall</a></li>    
+    <li><a href="https://heimdall.site/" target="_blank">Site Heimdall</a></li>
+    <li><a href="https://github.com/linuxserver/Heimdall/" target="_blank">GitHub Heimdall</a></li>    
 </ul>
 
 <h2 id="contribuições">Contribuições</h2>
