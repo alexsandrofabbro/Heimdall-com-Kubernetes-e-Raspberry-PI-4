@@ -135,8 +135,18 @@
   
  <h3 id="conclusao">7. Conclusão</h3>
   <p>Agora o Heimdall está em execução no seu cluster Kubernetes, pronto para ser usado como seu painel inicial de aplicativos!</p>
-
-
   
+<h2 id="recursos-adicionais">Recursos Adicionais</h2>
+<ul>
+    <li><a href="https://k3s.io/">Documentação oficial do k3s</a></li>
+    <li><a href="https://github.com/flannel-io/flannel">Flannel</a></li>
+    <li><a href="https://metallb.universe.tf/">MetalLB</a></li>
+</ul>
+
+<h2 id="contribuições">Contribuições</h2>
+<p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.</p>
+
+<h2 id="licença">Licença</h2>
+<p>Este projeto está licenciado sob a licença MIT. Veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>  
 </ol>   
 
